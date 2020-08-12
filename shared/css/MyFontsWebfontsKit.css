@@ -1,0 +1,40 @@
+/* @license
+ * MyFonts Webfont Build ID 2341674, 2012-08-09T20:32:26-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: Goudy Trajan Pro Regular by CastleType
+ * URL: //www.myfonts.com/fonts/castletype/goudy-trajan/regular/
+ * Copyright: Copyright (c) 2001 by CastleType. All rights reserved.
+ * Licensed pageviews: 10,000
+ *
+ * Webfont: Goudy Trajan Pro Bold by CastleType
+ * URL: //www.myfonts.com/fonts/castletype/goudy-trajan/bold/
+ * Copyright: Copyright (c) 1994 by CastleType. All rights reserved.
+ * Licensed pageviews: unspecified
+ *
+ * Webfont: Goudy Trajan Pro Medium by CastleType
+ * URL: //www.myfonts.com/fonts/castletype/goudy-trajan/medium/
+ * Copyright: Copyright (c) 2007 by CastleType. All rights reserved.
+ * Licensed pageviews: unspecified
+ *
+ *
+ * License: //www.myfonts.com/viewlicense?type=web&buildid=2341674
+ *
+ * 漏 2012 Bitstream Inc
+*/
+
+
+
+
+ @font-face {font-family: 'GoudyTrajan-Regular';src: url('webfonts/23BB2A_0_0.eot');src: url('webfonts/23BB2A_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/23BB2A_0_0.woff') format('woff'),url('webfonts/23BB2A_0_0.ttf') format('truetype');}
+
+
+ @font-face {font-family: 'GoudyTrajan-Bold';src: url('webfonts/23BB2A_1_0.eot');src: url('webfonts/23BB2A_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/23BB2A_1_0.woff') format('woff'),url('webfonts/23BB2A_1_0.ttf') format('truetype');}
+
+
+ @font-face {font-family: 'GoudyTrajan-Medium';src: url('webfonts/23BB2A_2_0.eot');src: url('webfonts/23BB2A_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/23BB2A_2_0.woff') format('woff'),url('webfonts/23BB2A_2_0.ttf') format('truetype');}
