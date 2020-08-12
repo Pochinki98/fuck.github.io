@@ -1,0 +1,1310 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main */
+html {
+    height: 100%; /* background-color: #FAFAFA; */
+    background: #4a7dd1; /* Old browsers */
+    background: -moz-linear-gradient(top, #4a7dd1 0%, #2b6ec3 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4a7dd1 0%, #2b6ec3 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(270deg, #7aadf1 0%, #2b6ec3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a7dd1', endColorstr='#2b6ec3', GradientType=0); /* IE6-9 */
+    overflow-x: hidden;
+}
+
+body, input, textarea {
+    font: 15px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+body {
+    background: url(../../img/top.jpg) center top no-repeat;
+    background-color: #FFFFFF;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+#main {
+    background: url(../../img/bottom.jpg) center bottom no-repeat;
+    position: relative;
+    min-height: 1022px;
+    max-width: 100%
+}
+
+#page {
+    width: 961px;
+    margin: 0 auto;
+    max-width: 100%
+}
+
+.topimg {
+    display: block;
+}
+
+.topimg-mobile {
+    display: none;
+}
+
+#topcontainer {
+    /*	background:url(../img/paper-background.jpg) repeat;  Texture is here <--- */
+    background: #FFF url(../../../shared/img/lotus-background.jpg) bottom right no-repeat;
+    -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2);
+
+    -moz-border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+}
+
+#topcontainer.home {
+    background: #FFF !important;
+}
+
+.container {
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    width: 960px;
+    max-width: 100%;
+    padding-right: 1px;
+    margin: 0 auto;
+}
+
+#header {
+    position: relative;
+    width: 960px;
+    max-width: 100%;
+    height: 150px;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+#language {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 999;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+/* SPECIAL */
+#FalunDafa-Banner {
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*left: 10px;*/
+    min-width: 420px;
+}
+
+/* Menu */
+#menu {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    width: 720px;
+}
+
+#menu ul {
+    float: right;
+    margin: 0;
+}
+
+#mobile-menu {
+    display: none;
+}
+
+#menu, ul, ul li, ul a, ul li a, ul input, ul div, ul p, ul textarea {
+    padding: 0;
+    list-style: none outside none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: SimSun, 新細明體, 細明體, PMingLiU, MingLiU, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: normal;
+}
+
+#menu ul li {
+    float: left;
+    margin-left: 0; /* increase this margin for space between buttons when using button background below */
+}
+
+#menu ul li a {
+    /*		background: url(../img/trans.png);  White transparent buttons */
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    display: block;
+    padding: 5px 12px;
+    color: #EEE;
+}
+
+#menu ul li a:hover {
+    background: url(../../img/trans-blue.png);
+}
+
+.menub {
+    background: url(../../img/menu-divider.png) center right no-repeat;
+}
+
+/* little dividers between menu items */
+
+/* End of Header */
+
+/*----- Slideshow -----*/
+
+/* content styling */
+
+.content h1 {
+    font: 32px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, GoudyTrajan-Medium, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-bottom: 18px;
+    color: #D1A577;
+    line-height: 30px;
+}
+
+.content h2 {
+    color: #59A5D8;
+}
+
+.content h3 {
+    color: #D1A577;
+}
+
+.content p {
+    font: 17px/32px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-bottom: 18px;
+    color: #707070;
+}
+
+.content a {
+    text-decoration: none;
+    color: #459AD3;
+}
+
+.content a:visited {
+    color: #1A4A6A;
+}
+
+.minimize {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.content a:hover {
+    text-decoration: none;
+    color: #22638E;
+}
+
+.introduction {
+    padding: 22px 205px 0;
+}
+
+.home .introduction {
+    padding: 12px 225px 16px;
+}
+
+.introduction h1 {
+    text-align: center;
+    padding: 20px 0 !important;
+}
+
+.introduction p {
+    text-align: justify;
+}
+
+.hr {
+    background: url(../../img/hr.png) bottom center no-repeat;
+}
+
+.hr1 {
+    background: url(../../img/hr1.png) bottom center no-repeat;
+}
+
+.voffset-half {
+    padding: 5px 0;
+}
+
+/* to define distance between rows */
+
+.voffset-onehalf {
+    padding: 15px 0;
+}
+
+/* to define distance between rows */
+.voffset-two {
+    padding: 20px 0 30px 0;
+}
+
+/* to define distance between rows */
+.voffset-three {
+    padding: 30px 0;
+}
+
+/* to define distance between rows */
+.voffset-four {
+    padding: 40px 0;
+}
+
+/* to define distance between rows */
+.voffset-five {
+    padding: 36px 0;
+}
+
+/* to define distance between rows */
+.voffset-six {
+    padding: 60px 0;
+}
+
+/* to define distance between rows */
+.voffset-seven {
+    padding: 70px 0;
+}
+
+/* to define distance between rows */
+.voffset-eight {
+    padding: 80px 0 0 0;
+}
+
+.topoffset-one {
+    padding-top: 10px;
+}
+
+.topoffset-four {
+    padding-top: 40px;
+}
+
+.topoffset-eight {
+    padding-top: 80px;
+}
+
+.topoffset-seven {
+    padding-top: 70px;
+}
+
+.topoffset-six {
+    padding-top: 60px;
+}
+
+.bottomoffset-two {
+    padding-bottom: 20px;
+}
+
+.bottomoffset-three {
+    padding-bottom: 30px;
+}
+
+.box {
+    float: left;
+    min-height: 1px;
+}
+
+/*.content {padding: 1px 0 0 1px;}*/
+
+.full-span {
+    width: 960px;
+    max-width: 100%;
+}
+
+.half-span {
+    width: 480px;
+    max-width: 100%;
+}
+
+.third-span {
+    width: 320px;
+    max-width: 100%;
+}
+
+/* 96 boxes / 3 = 32boxes * 10px = 320px or 960/ 3 = 320px */
+.fourth-span {
+    width: 240px;
+}
+
+.fifth-span {
+    width: 192px;
+}
+
+.sixth-span {
+    width: 160px;
+}
+
+.eighth-span {
+    width: 120px;
+}
+
+.tenth-span {
+    width: 96px;
+}
+
+.twelfth-span {
+    width: 80px;
+}
+
+.ninetysixth-span {
+    width: 10px;
+}
+
+.two-thirds-span {
+    width: 640px;
+    max-width: 100%
+}
+
+.span-80 {
+    width: 800px;
+    max-width: 100%
+}
+
+.span-8 {
+    width: 80px;
+}
+
+.span-5 {
+    width: 50px;
+}
+
+.span-86 {
+    width: 860px;
+    max-width: 100%
+
+}
+
+.span-76 {
+    width: 760px;
+    max-width: 100%
+}
+
+.span-10 {
+    width: 100px;
+}
+
+.span-52 {
+    width: 520px;
+    max-width: 100%
+}
+
+.span-54 {
+    width: 540px;
+    max-width: 100%;
+}
+
+.span-16 {
+    width: 160px;
+}
+
+.span-6 {
+    width: 60px;
+}
+
+.span-84 {
+    max-width: 100%;
+    margin: 0 60px;
+    float:none;
+}
+
+.span-15 {
+    width: 150px;
+}
+
+.span-28 {
+    width: 280px;
+}
+
+.span-40 {
+    width: 400px;
+    max-width: 100%
+}
+
+/*.content { padding: 1px 0 0 1px;}*/
+.offset-one {
+    padding-left: 10px;
+}
+
+.offset-two {
+    padding-left: 20px;
+}
+
+.offset-three {
+    padding-left: 30px;
+}
+
+.offset-four {
+    padding-left: 40px;
+}
+
+.inner-box-span {
+    width: 280px;
+}
+
+.center {
+    text-align: center;
+}
+
+.img-center {
+    display: block;
+    margin: 20px auto 0;
+}
+
+/* Single content */
+.narrow p {
+    max-width: 150px;
+    font-size: 13px;
+    line-height: 22px;
+    min-height: 130px;
+}
+
+.narrow h2 {
+    position: relative;
+    left: -10px;
+    padding-bottom: 5px;
+}
+
+.books {
+    background: url(../../img/thumbs-falun-dafa-books.png) top right no-repeat;
+}
+
+.video {
+    background: url(../../img/thumbs-falun-dafa-videos.png) top right no-repeat;
+}
+
+.local {
+    background: url(../../img/thumbs-falun-dafa-contacts.png) top right no-repeat;
+}
+
+.row .books a, .row .books a:visited {
+    color: #707070;
+}
+
+.row .video a, .row .video a:visited {
+    color: #707070;
+}
+
+.row .local a, .row .local a:visited {
+    color: #707070;
+}
+
+/*
+.books:hover {
+    background: url(../../img/thumbs-falun-dafa-books.png) top right no-repeat;
+    color: #22638E;
+}
+
+.video:hover {
+    background: url(../../img/thumbs-falun-dafa-videos.png) top right no-repeat;
+    color: #22638E;
+}
+
+.local:hover {
+    background: url(../../img/thumbs-falun-dafa-contacts.png) top right no-repeat;
+    color: #22638E;
+}
+*/
+
+#books {
+    background: url(../../../local/Books-recent-writings.png) 0 0 no-repeat;
+    width: 280px;
+    height: 44px;
+}
+
+#video {
+    background: url(../../../local/Video-audio.png) 0 0 no-repeat;
+    width: 280px;
+    height: 44px;
+}
+
+#local {
+    background: url(../../../local/Local-contacts.png) 0 0 no-repeat;
+    width: 280px;
+    height: 44px;
+}
+
+/* Pages tables */
+
+/*.row-contact {*/
+    /*display: block;*/
+    /*border: 1px solid green;*/
+/*}*/
+
+.head-book .divided {
+    border-top: 1px solid #839ee1;
+}
+
+.head-book h2, .row-contact h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.row a, .row a:visited, .row a:active {
+    color: #c18d57;
+}
+
+.row a:hover {
+    color: #59A5D8;
+}
+
+/*.row h3 {padding: 5px 0 5px 0;}*/
+
+.even {
+    color: #777;
+}
+
+.even p {
+    padding: 1px 0 1px 30px;
+}
+
+.even img {
+    padding-right: 10px;
+}
+
+.odd {
+    background-color: #F6F4EE;
+    color: #777;
+}
+
+.odd p {
+    padding: 1px 0 1px 30px;
+}
+
+.odd img {
+    padding-right: 10px;
+}
+
+.row sup img {
+    position: relative;
+    top: -3px;
+    left: 6px;
+}
+
+.row sup {
+    position: relative;
+    top: 2px;
+    left: -8px;
+}
+
+p.note {
+    font-style: italic;
+}
+
+/* footer */
+p.copyright {
+    font-size: 12px;
+    color: #777;
+    padding: 15px 0;
+}
+
+p.copyright a, .copyright a:visited {
+    text-decoration: none;
+    color: #777;
+}
+
+#footer {
+    margin-top: 140px;
+    background: url(../../img/hr1.png) top center no-repeat;
+}
+
+#topcontainer.home #footer {
+    margin-top: 0;
+}
+
+/* to be organized */
+
+/* OLD STUFF
+.column {width:280px; float:left; border:1px solid green;}
+#Falun-Dafa {
+	position:absolute; top:8px; left:20px;
+	font: 48px Roboto, serif;
+	letter-spacing:2px;
+	font-variant:;
+	color:#FFF;
+}
+#zsr {position:absolute; left:35px; top:67px; font: 17px Roboto, serif; text-transform:uppercase; color:#FFF; line-height:168%;letter-spacing:1px;}
+#zsr img {float:left; padding: 5px 12px 0 0;}
+#zsr p {float:left; padding-top:2px;}
+
+
+/* redefined */
+.container {
+    padding-right: 0;
+    /*width: 100%;*/
+}
+
+#page {
+    max-width: 960px;
+    /*max-width: 100%;*/
+}
+
+/*----- Home Page -----*/
+
+/* slideshow */
+.slideshow {
+    height: 303px;
+    background: url(../../img/hr2.png) no-repeat center bottom;
+}
+
+#slides {
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+#slides img {
+    display: none;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+#slides img.first {
+    display: block;
+}
+
+#nav {
+    float: right;
+    width: 63px;
+    position: relative;
+    right: -3px;
+}
+
+#nav a { /* Uses image replacement technique for navigation buttons of slideshow */
+    float: left;
+    border: 0;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    background: url(../../img/dots.png);
+    height: 21px;
+    width: 17px;
+    display: block;
+    position: relative;
+}
+
+#nav a.activeSlide {
+    background: url(../../img/dotsa.png);
+}
+
+#nav a:focus {
+    outline: none;
+}
+
+/* bottom languages */
+#bottom-languages table {
+    width: 960px;
+    max-width: 100%;
+}
+
+#bottom-languages .row {
+    padding: 15px 0;
+}
+
+#bottom-languages td {
+    text-align: left;
+    width: 120px;
+    border-left: 1px solid rgb(153, 153, 153);
+    border-left: 1px solid rgba(153, 153, 153, .9);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+#bottom-languages .lastcol {
+    border-right: 1px solid rgb(153, 153, 153);
+    border-right: 1px solid rgba(153, 153, 153, .9);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+#bottom-languages a {
+    display: block;
+    color: #fff;
+    font-family: Verdana, serif;
+    font-size: 11px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+    border-radius: 2px 2px 2px 2px;
+    padding: 3px 5px;
+}
+
+#bottom-languages a:hover {
+    background: url(../../img/trans-blue.png);
+}
+
+/*----- Introduction Page -----*/
+
+/*----- Books Page -----*/
+
+.row-book .row h4 {
+    padding: 1px 0;
+    font-style: italic;
+}
+
+.row-book .row .span-title h4 {
+    padding-left: 30px;
+}
+
+/* Collapse tables */
+.new-article .span-title h3 {
+    cursor: inherit;
+}
+
+.row-book h3 {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.row-book-new h3 {
+    text-decoration: none;
+}
+
+.row-book a {
+    text-decoration: none;
+}
+
+.row-book.closed {
+    /*height: 36px;*/
+    overflow: hidden;
+    display: block;
+}
+
+.row-book.open {
+    height: auto;
+    overflow: visible;
+}
+
+.row-book .content h3 {
+    line-height: 150%;
+}
+
+.row-book .content .span-title h3 {
+    color: #22638E;
+}
+
+.row-book .content .span-title h3:hover {
+    color: #459ad3;
+}
+
+.row-book.closed .span-title h3:after {
+    content: url(../../img/drop_light.png);
+}
+
+.recent-writings .row-book h3 a {
+    color: #22638e;
+}
+
+.recent-writings .row-book h3 a:hover {
+    color: #459ad3;
+}
+
+.head-book {
+    margin: 10px 60px;
+    padding: 0 10px;
+}
+
+.row-book .row {
+    margin: 0 60px;
+    padding: 0 10px;
+}
+
+.span-title, .span-title2, .span-date {
+    margin: 1% 1%
+}
+
+.span-title {
+    float:left;
+}
+
+.span-date {
+    width: 21%;
+    float:right;
+}
+
+.span-title a, .span-title span {
+    line-height: 150%;
+}
+
+.row-book .row.vspace-book {
+    padding-top: 10px;
+    padding-bottom: 7px
+}
+
+/*----- Video Page -----*/
+
+#slidetabsmenu {
+    width: 838px;
+    height: 40px;
+    line-height: 40px;
+    max-width: 100%;
+    margin: 10px auto 0;
+    padding: 7px 0 0 0;
+    background-color: #76adff;
+    border-radius: 2px 2px 2px 2px;
+    -webkit-border-radius: 2px 2px 2px 2px;
+    -moz-border-radius: 2px 2px 2px 2px;
+}
+
+#slidetabsmenu ul {
+    list-style-type: none;
+    margin: 0 10px;
+    display: block;
+}
+
+#slidetabsmenu li {
+    display: inline;
+}
+
+#slidetabsmenu a {
+    float: left;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+#slidetabsmenu a span {
+    font: 22px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, GoudyTrajan-Medium, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 40px;
+    padding: 0 20px;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#slidetabsmenu a:hover span {
+    background-color: #fff;
+    color: #0887c2;
+}
+
+#slidetabsmenu .selected a span {
+    background-color: #f6f4ee;
+    color: #839ee1;
+}
+
+td.centered {
+    text-align: center !important;
+}
+
+/*td.more-vertical-padding {padding-top: 20px !important; padding-bottom: 20px !important;}*/
+
+tr.main-header th {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #59a5d8;
+}
+
+tr.main-header th.first {
+    text-align: left;
+}
+
+table.video-audio-table {
+    width: 100%;
+    max-width: 100%;
+}
+
+table.video-audio-table.exercise-music td a:before,
+table.video-audio-table.dafa-music td a:before
+{
+    content: " - ";
+    color: rgba(0,0,0,0);
+    display: inline-block;
+    width: 18px;
+    height: 27px;
+    background: url(../download-icon-128.png) no-repeat 0 3px;
+    background-size: 18px 18px;
+    padding-right: 4px;
+}
+
+table.video-audio-table.exercise-music tr td,
+{
+    text-align: left;
+}
+
+table.video-audio-table.lectures td a:before
+{
+    content: " - ";
+    color: rgba(0,0,0,0);
+    display: inline-block;
+    width: 9px;
+    height: 27px;
+    background: url(../download-icon-128.png) no-repeat 0 7px;
+    background-size: 9px 9px;
+    padding-right: 4px;
+}
+
+table.video-audio-table.lectures tr td {
+    text-align: left;
+    padding: 0;
+}
+
+table.video-audio-table tr.divided {
+    border-top: 1px solid #839ee1;
+}
+
+table.video-audio-table tr.odd {
+    background-color: #f6f4ee;
+}
+
+table.video-audio-table tr td {
+    vertical-align: middle;
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+table.video-audio-table tr td.first {
+    text-align: left;
+}
+
+td.more-vertical-padding {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+#video-exercise-instructions, #video-9sessions {
+    margin-top: 40px;
+}
+
+#movieplayer-td-container {
+    padding: 0.54em;
+}
+
+#movieplayer {
+    background: #000;
+    width: 100%;
+    max-width: 100%;
+}
+
+.jwplayer {
+    display: inline-block !important;
+}
+
+/*----- Contacts Page -----*/
+
+/*:focus { outline: 0; }*/
+
+.breadcrumbs {
+    font: 10px GoudyTrajan-Medium, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-transform: uppercase;
+    padding: 0 10px 10px 0;
+}
+
+.breadcrums img {
+    position: relative;
+    top: -3px;
+}
+
+.contacts h2 {
+    font: 21px GoudyTrajan-Medium, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-bottom: 18px;
+    color: #d1a577;
+    text-align: center;
+}
+
+.row .content li {
+    float: left;
+    list-style: inside none;
+}
+
+.row h2 {
+    padding: 0;
+}
+
+.row {
+    font: 16px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, Georgia, serif;
+}
+
+h1.contact-name {
+    border: 0 solid green;
+    padding: 17px 5px 5px 5px;
+    text-align: left;
+
+}
+
+.row-contact h3 {
+    cursor: pointer;
+}
+
+.row-contact.closed {
+    height: 55px;
+    overflow: hidden;
+    display: block;
+}
+
+.row-contact.closed div {
+    display: none;
+}
+
+/* disable tabstop for hidden datablock */
+.row-contact.open {
+    height: auto;
+    overflow: visible;
+}
+
+.row-contact.closed a {
+    display: none;
+}
+
+.row-contact h1 {
+    cursor: pointer;
+    text-align: center;
+}
+
+.row-contact a {
+    display: block;
+    clear: both;
+    color: #459AD3;
+}
+
+.row-contact a:visited {
+    color: #1A4A6A;
+}
+
+.imap {
+    float: left;
+    padding: 0 30px 0 0;
+}
+
+.span-table10 {
+    width: 8%;
+    padding: 1%
+}
+
+.span-table15 {
+    width: 13%;
+    padding: 1%
+}
+
+.span-table20 {
+    width: 18%;
+    padding: 1%
+}
+
+.span-table25 {
+    width: 23%;
+    padding: 1%;
+}
+
+/* Table with 4 columns */
+.span-table33 {
+    width: 31%;
+    padding: 1%;
+}
+
+/* Table with 3 columns */
+.span-table34 {
+    width: 32%;
+    padding: 1%;
+}
+
+/* Table with 3 columns */
+.span-table50 {
+    width: 48%;
+    padding: 1%;
+}
+
+/* Table with 2 columns */
+.span-table80 {
+    width: 78%;
+    padding: 1%;
+}
+
+.span-table100 {
+    width: 98%;
+    padding: 1%;
+}
+
+/* Table with 1 column  */
+.row-contact {
+    display: block;
+    position: relative;
+}
+
+.row-contact .row {
+    margin: 0 10%;
+    padding: 0 10px;
+    width: 80%;
+}
+
+.row-contact .row.vspace-firstrow {
+    margin-top: 10px;
+}
+
+.row-contact .firstcol {
+    font-weight: bold;
+}
+
+.voffset-tablehead {
+    padding: 10px 0;
+}
+
+.firstcol {
+    font-weight: bold;
+}
+
+/*==================================== Global contacts Map ====================================*/
+
+td img {
+    display: block;
+}
+
+.map_name, .map_name a, .map_name a:visited, .map_name a:active {
+    font: 16px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, GoudyTrajan-Medium, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #333;
+    text-align: center;
+
+    display: block;
+}
+
+.map_name a:hover {
+    color: #d1a577;
+}
+
+.map {
+    background-image: url(../../img/worldmap-falun-dafa-contacts.png);
+}
+
+#map-background {
+    top: 20px;
+    width: 652px;
+    height: 315px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#m-n_america {
+    top: 68px;
+    left: 75px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+}
+
+#m-s_america {
+    top: 95px;
+    left: 150px;
+    width: 100px;
+    height: 50px;
+    position: relative;
+}
+
+#m-europe {
+    top: 90px;
+    left: 280px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+}
+
+#m-africa {
+    top: 60px;
+    left: 280px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+}
+
+#m-asia {
+    top: 15px;
+    left: 420px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+}
+
+#m-oceania {
+    top: 65px;
+    left: 498px;
+    width: 100px;
+    height: 25px;
+    position: relative;
+}
+
+/* ---- Photo page ---- */
+.photo-page-chinese-translation {
+    color: #D1A577;
+    font: 18px SimSun, 新細明體, 細明體, PMingLiU, MingLiU, GoudyTrajan-Medium, Georgia, serif;
+}
+
+/* ---- 9-day video lectures tabs customizations ---- */
+.container-cell {
+    vertical-align: top !important;
+    padding: 0 !important;
+}
+
+.minimal-2.tabs > ul > li {
+    line-height: 28px;
+    padding: 0 10px;
+}
+
+.minimal-2.tabs > ul, .minimal-2.tabs > ul > li + li {
+    border-color: #c6c4be;
+}
+
+.minimal-2.tabs > section {
+    border-color: #e6e4de;
+    padding: 0;
+    border: none;
+    height:320px;
+}
+
+.minimal-2.tabs > ul > li {
+    color: #d1a577;
+}
+
+.minimal-2.tabs > ul > li.current {
+    background-color: #76adff;
+}
+
+.row-book.closed .voffset-half {
+    display: none;
+}
+
+.dot {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.introduction-contact {
+    padding:0 20% 0 26%;
+}
+.introduction-contact .content {
+    width: auto;
+}
+
+
+button {
+    color: #000000;
+    font: 16px Times;
+}
+
+button.pos-center {
+    height: 40px;
+    width: 280px;
+}
+
+button.pos-links {
+    height: 50px;
+    width: 136px;
+}
+
+button.pos-rechts {
+    height: 50px;
+    width: 136px;
+}
+
+.dafa-music.mp3 {
+    display:; /* it is not a mistake */
+}
+
+.video-audio-mobile {
+    display: none;
+}
+
