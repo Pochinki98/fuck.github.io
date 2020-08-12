@@ -1,0 +1,603 @@
+/*small mobile phone*/
+/* 236(320), 280(375), 290(414) */
+/*Extra small devices Phones (<768px)*/
+/*Custom max-width based on the length of the menu, it can be bigger then 768px*/
+/*Small devices Tablets (<992)*/
+@media only screen and (max-width: 1024px) {
+    div {
+        font: 16px SimSun, 鏂扮窗鏄庨珨, 绱版槑楂�, PMingLiU, MingLiU, Georgia, serif;
+    }
+    .span-title h3,
+    .item_direct a,
+    #GlobalContacts a,
+
+    table.video-audio-table tr td {
+        font-size: 1.16em;
+    }
+    table.exercise-music tr td.first {
+        width:60%;
+    }
+    #g9day_audio ul li {
+        font-size: 1.24em;
+        min-height: 36px !important;
+    }
+    .content p {
+        font: 1.16em/32px SimSun, 鏂扮窗鏄庨珨, 绱版槑楂�, PMingLiU, MingLiU, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        padding-bottom: 18px;
+        color: #707070;
+    }
+
+    .narrow p {
+        max-width: 50%;
+        font-size: 1.0em;
+        line-height: 1.8em;
+        min-height: 130px;
+    }
+
+    #slides {
+        width: 100%;
+    }
+
+    ul.direct_move {
+        overflow: hidden;
+        width: auto;
+        min-height: 40px;
+        border-top: 1px solid #e4e6e7;
+        background-color: #ffffff;
+        position: absolute;
+        top:145px;
+        z-index: 1000;
+    }
+
+    li.item_direct {
+        float: left;
+        border-right: 1px solid #f4f4f4;
+        border-bottom: 1px solid #e4e6e7;
+        text-align: center;
+        box-sizing: border-box;
+        width: 50%;
+        padding: 12px 0 10px;
+    }
+
+    li.item_direct a {
+        color: #22638E !important;
+        letter-spacing: -1px;
+        /*font-size: 16px;*/
+        font-weight: 400;
+        font-family: SimSun, 鏂扮窗鏄庨珨, 绱版槑楂�, PMingLiU, MingLiU, Georgia, "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    }
+
+    .row-contact {
+        margin-top:20px;
+    }
+
+    #map-background {
+        display: none;
+    }
+
+    #main {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #page {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+        height: 170px;
+    }
+
+    #topcontainer .span-84 .content {
+        padding: 10px;
+    }
+
+    #topcontainer .content h1.contactTitle {
+        line-height: 30px;
+    }
+
+    .home .introduction {
+        width: 92%;
+        padding-left: 4%;
+        padding-right: 0;
+    }
+
+    #slidetabsmenu {
+        width: auto;
+    }
+
+    .row-book .row {
+        margin: 0 10px;
+        padding: 1%;
+    }
+
+    .introduction {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+    }
+    .offset-four {
+        padding-left: 4%;
+    }
+
+    #GlobalContacts .row-contact h1 {
+        /*line-height: 15px;*/
+    }
+
+    #GlobalContacts h1.contact-name {
+        padding: initial;
+    }
+
+    #GlobalContacts .span-table25 {
+        padding: 8px 3px;
+    }
+
+    .hr1 {
+        background: none;
+    }
+
+    .voffset-five {
+        padding : 10px 0 0 0;
+    }
+
+    .inner-box-span {
+        width: 30%;
+    }
+
+    .head-book {
+        margin: 10px 10px;
+        padding: 0;
+    }
+
+    .hv_book, .wrapper_book, .wrapper {
+        margin: 10px;
+    }
+
+    .span-80 {
+        width:initial;
+        padding: 10px;
+    }
+
+    .span-84 {
+        margin: 0 0;
+    }
+
+    .topoffset-seven {
+        padding-top: 10px;
+    }
+
+    #language {
+        top: 6px;
+        right: 20px;
+    }
+    #mobileMenuIcon {
+        top: 116px;
+        right: 23px;
+    }
+    ul.direct_move {
+        top: 145px;
+        width: 100%;
+    }
+    .box.inner-box-span {
+        float: left;
+    }
+    .voffset-half .span-title {
+        width:90%;
+    }
+    .odd p, .even p {
+        padding: 1px 0 1px 10px;
+    }
+}
+@media only screen and (max-width: 768px){
+
+}
+@media only screen and (max-width: 740px){
+    .box.inner-box-span {
+         float: none;
+         padding-left: 27%;
+    }
+    .inner-box-span {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    /*----*/
+    #menu {
+        /* menu size is variable between languages, height depending on number of entries, like minghui link */
+        width: 100%;
+        height: 198px !important;
+
+        top: 160px;
+        float: right;
+        position: absolute !important;
+        z-index: 1000;
+        padding-top: 15px;
+        right: -181px;
+        display: none;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        /*position: fixed;*/
+
+        /*height: 100%;*/
+        background-color: #fff;
+        border-right: 1px solid #e6e6e6;
+        bottom: 0;
+        -webkit-backface-visibility: hidden;
+        /*-webkit-perspective: 1000;*/
+        box-shadow: inset 6px 0 34px 0 rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: inset -3px 0 33px 0 rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: inset 6px 0 21px 0 rgba(0, 0.15, 0, 0);
+    }
+
+    .topimg {
+        display: none;
+    }
+
+    .topimg-mobile {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    #mobile-menu.open {
+        right: 0;
+        display: block;
+    }
+
+    #menu ul li {
+        float: none;
+        height: 32px;
+    }
+
+    #menu ul li a {
+        color: blue;
+    }
+
+    #menu .mobile_dropdown_arrow {
+        display: inline-block;
+        float: right;
+        width: 36px;
+        text-align: center;
+        height: 36px;
+        line-height: 36px;
+        margin-top: -9px;
+        margin-right: -11px;
+    }
+
+    .menub {
+        background: none;
+    }
+
+    #mobileMenuIcon {
+        display: block;
+    }
+
+    #slides {
+        width: 100%;
+    }
+
+    .row-contact .row {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .row-contact .box {
+        /*border: 1px solid green;*/
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #slidetabsmenu {
+        height: auto;
+        margin-bottom: 10px;
+        line-height: 0;
+        padding-bottom: 10px;
+    }
+
+    #slidetabsmenu a {
+        float: none;
+    }
+
+    .row .content li {
+        float: none;
+    }
+
+    .mejs-controls .mejs-time-rail span, .mejs-controls .mejs-time-rail a {
+        display: none !important;
+    }
+
+    .span-date {
+        width: auto;
+    }
+
+    .span-bookname {
+        width: 58%;
+    }
+
+    .box.inner-box-span {
+        padding-left: 9%;
+    }
+
+    #FalunDafa-Banner {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        min-width:100%;
+        margin: 0 auto;
+    }
+    .inner-box-span {
+        width: 86%;
+    }
+
+    #GlobalContacts .span-table25 {
+        padding: 8px 0;
+        width: 50%;
+        height: 1.5em;
+        float: left;
+    }
+
+    .span-table33 {
+        padding: 8px 0;
+        width: 33%;
+        float: left;
+        text-align: center;
+        font-size: 1.16em;
+    }
+
+    .dvd-title {
+        width:100%;
+        font-size: 1.16em;
+        text-align: center;
+        padding-bottom:0.5em;
+    }
+    .dvd-title h3 {
+        color: #777;
+    }
+
+    .dafa-music.mp3 {
+        display: none;
+    }
+
+    .video-audio-mobile {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .video-audio-mobile p.note {
+        margin-top:1.0em;
+    }
+
+    .video-audio-mobile .main-header {
+        padding:10px;
+        font-size:1.16em;
+        margin-top:1.0em;
+    }
+
+
+    .introduction-contact {
+        padding:0 0 0 3%;
+    }
+
+    .books {
+        background: url(../../img/thumbs-falun-dafa-books.png) top right no-repeat;
+    }
+    .video {
+        background: url(../../img/thumbs-falun-dafa-videos.png) top right no-repeat;
+    }
+    .local {
+        background: url(../../img/thumbs-falun-dafa-contacts.png) top right no-repeat;
+    }
+
+    .new-article .span-title,
+    .new-article-title .span-title {
+        width: auto;
+    }
+
+    tr.main-header th {
+        font-size: 1.16em;
+    }
+}
+@media only screen and (max-width: 414px) {
+    #header {
+        height: 190px;
+    }
+    #language {
+        top: 138px;
+        left: 5%;
+        right:initial;
+    }
+    #mobileMenuIcon {
+        top: 159px;
+        right: 5%;
+    }
+    ul.direct_move {
+        top: 174px;
+    }
+
+    table.dafa-music tr.pc {
+        display:none;
+    }
+    table.dafa-music.mobile {
+        display:block;
+    }
+    table.dafa-music.mobile td {
+        text-align: left;
+    }
+
+    table.dafa-music.mobile td.download {
+        text-align: center;
+    }
+
+    table.dafa-music tr.main-header th.first {
+        width: 15%;
+    }
+    .span-title {
+        width: 65%;
+    }
+    #topcontainer:not(.recent-writings) .head-book .box:last-child,
+    #list-of-books .row-book .row .box:last-child {
+        display:none;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #header {
+        height: 180px;
+    }
+    #language {
+        top: 128px;
+        left: 5%;
+        right:initial;
+    }
+    #mobileMenuIcon {
+        top: 149px;
+        right: 5%;
+    }
+    ul.direct_move {
+        top: 164px;
+    }
+    .span-title {
+        width: 60%;
+    }
+    table.dafa-music tr td.first {
+        width:19%;
+    }
+    table.dafa-music.dvd tr td.first {
+        width:50%;
+    }
+}
+@media only screen and (max-width: 370px) {
+    /*
+    .books, .books:hover {
+        background-position: 30px 0;
+    }
+    .video, .video:hover {
+        background-position: 30px 0;
+    }
+    */
+
+    /*.box.inner-box-span {*/
+    /*padding-left: 9px !important;*/
+    /*}*/
+    .box.inner-box-span {
+        padding-left: 3px;
+    }
+
+    #language {
+        top: 118px;
+        left:4%;
+        right:initial;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #header {
+        height: 180px;
+    }
+    #language {
+        top: 128px;
+        left: 5%;
+        right:initial;
+    }
+    #mobileMenuIcon {
+        top: 149px;
+        right: 5%;
+    }
+    ul.direct_move {
+        top: 164px;
+    }
+    .box.inner-box-span {
+        padding-left: 8%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    #header {
+        height: 164px;
+    }
+    #language {
+        top: 112px;
+        left: 5%;
+        right:initial;
+    }
+    #mobileMenuIcon {
+        top: 134px;
+        right: 5%;
+    }
+    ul.direct_move {
+        top: 148px;
+    }
+    .span-title {
+        width: 55%;
+    }
+
+    .minimal-2.tabs > ul > li {
+        padding: 0 8px;
+    }
+
+    table.exercise-music tr td.first {
+        width:60%;
+    }
+}
+
+/*Small devices Tablets (鈮�768px)*/
+@media (min-width: 768px) and (max-width: 992px) {
+    #slides {
+        width: 100%;
+    }
+    #main {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #page {
+        min-width: 0;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #header {
+        width: 100%;
+        height: 147px;
+    }
+    /*
+    #menu {
+        width: 100%;
+    }
+    */
+
+    .home .introduction {
+        /*width:50%;*/
+    }
+    /*
+    .box.inner-box-span {
+        float: none;
+        padding-left: 36%;
+    }
+    */
+    .wrapper {
+        margin: 20px;
+    }
+
+    .content p {
+        /*margin-left: 60px;*/
+    }
+
+    .topimg {
+        display: block;
+    }
+
+    .topimg-mobile {
+        display: none;
+    }
+}
